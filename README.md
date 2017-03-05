@@ -4,10 +4,10 @@
 all _really_ want, __DAT UPVOTE COUNT BOI__.
 
 This is a simple microservice built on [zeit's
-micro](https://github.com/zeit/microhttps://github.com/zeit/micro),
-[got](https://github.com/sindresorhus/gothttps://github.com/sindresorhus/got),
+micro](https://github.com/zeit/micro),
+[got](https://github.com/sindresorhus/got),
 and
-[cheerio](https://github.com/cheeriojs/cheeriohttps://github.com/cheeriojs/cheerio)
+[cheerio](https://github.com/cheeriojs/cheerio)
 that scrapes that upvote number and returns it to you.
 
 ## USAGE
