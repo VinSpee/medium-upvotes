@@ -64,8 +64,8 @@ module.exports = async (req, res) => {
   try {
     html = await got(isValid, {
       headers: {
-        'Content-Type': 'application/json'
-        'User-Agent': 'Medium Upvote Getter'
+        'Content-Type': 'application/json',
+        'User-Agent': 'Medium Upvote Getter',
       } 
     });
   } catch(err) {
