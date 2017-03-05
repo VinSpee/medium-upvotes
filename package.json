@@ -1,6 +1,6 @@
 {
   "name": "medium-upvotes",
-  "version": "0.0.1",
+  "version": "1.0.0-beta",
   "description": "a microservice that allows you to fetch the upvote count from a medium post",
   "main": "index.js",
   "scripts": {
