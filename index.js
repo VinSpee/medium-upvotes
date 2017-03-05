@@ -62,7 +62,12 @@ module.exports = async (req, res) => {
   const isValid = validateURL(postURL);
   let html;
   try {
-    html = await got(isValid);
+    html = await got(isValid, {
+      headers: {
+        'Content-Type': 'application/json'
+        'User-Agent': 'Medium Upvote Getter'
+      } 
+    });
   } catch(err) {
     return sendError(req, res, err);
   }
